@@ -31,3 +31,4 @@
 
 -- After creating the tables, you can import the sample data using:
 -- `.read scripts/sample_data.sql` in a sql file or `npm run import` in the terminal
+-- Alternatively, you can copy and paste the sample data into this file under the CREATE tables
