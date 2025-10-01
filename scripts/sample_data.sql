@@ -123,7 +123,7 @@ VALUES
 (4, 10, 'Attended');
 
 -- Sample data for payments (including day passes)
-INSERT INTO payments (member_id, amount, payment_date, payment_method, description)
+INSERT INTO payments (member_id, amount, payment_date, payment_method, payment_type)
 VALUES 
 (1, 50.00, '2023-02-01 10:00:00', 'Credit Card', 'Monthly membership fee'),
 (2, 30.00, '2023-02-05 14:30:00', 'Bank Transfer', 'Monthly membership fee'),
@@ -135,10 +135,10 @@ VALUES
 (8, 30.00, '2023-03-05 15:45:00', 'PayPal', 'Monthly membership fee'),
 (9, 50.00, '2023-03-10 08:00:00', 'Credit Card', 'Monthly membership fee'),
 (10, 30.00, '2023-03-15 17:30:00', 'Bank Transfer', 'Monthly membership fee'),
-(NULL, 15.00, '2023-03-16 09:00:00', 'Cash', 'Day pass'),
-(NULL, 15.00, '2023-03-16 10:30:00', 'Credit Card', 'Day pass'),
-(NULL, 15.00, '2023-03-17 14:00:00', 'Cash', 'Day pass'),
-(NULL, 15.00, '2023-03-18 11:15:00', 'Credit Card', 'Day pass');
+(11, 15.00, '2023-03-16 09:00:00', 'Cash', 'Day pass'),
+(12, 15.00, '2023-03-16 10:30:00', 'Credit Card', 'Day pass'),
+(13, 15.00, '2023-03-17 14:00:00', 'Cash', 'Day pass'),
+(14, 15.00, '2023-03-18 11:15:00', 'Credit Card', 'Day pass');
 
 -- Sample data for personal_training_sessions
 INSERT INTO personal_training_sessions (member_id, staff_id, session_date, start_time, end_time, notes)
